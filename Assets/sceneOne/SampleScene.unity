@@ -655,7 +655,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1179334714}
   normalMat: {fileID: 0}
-  phasedMat: {fileID: 2100000, guid: 65eb6d8bd532ff24790e8810799fd82f, type: 2}
+  phasedMat: {fileID: 2100000, guid: 5774f39d5cae4db4d9b02a9565857951, type: 2}
   bounds: 3
   strafeSpeed: 4
   phaseCooldown: 2

@@ -13,15 +13,28 @@ public class Collidable : MonoBehaviour
     {
         transform.Translate(0, 0, -moveSpeed * Time.deltaTime);
     }
+    void OnTriggerEnter(Collider other)
+    {
 
-        void OnTriggerEnter(Collider other)
+        Debug.Log($"OnTriggerEnter is running. {name} hit {other.name}");
+
+
+        var player = other.GetComponent<Player>();
+        if (player == null)
         {
-            if(other.tag == "Player")
-            {
-            manager.AdjustTime(timeAmount);
-                Destroy(gameObject);
-            }
-
+            // We didn't hit the player.
         }
-
+        else
+        {
+            manager.AdjustTime(timeAmount);
+            Destroy(gameObject);
+        }
     }
+}
+
+
+
+
+
+
+
