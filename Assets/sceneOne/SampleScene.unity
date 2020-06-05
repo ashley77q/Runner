@@ -654,8 +654,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 1179334714}
-  normalMat: {fileID: 0}
-  phasedMat: {fileID: 2100000, guid: 5774f39d5cae4db4d9b02a9565857951, type: 2}
+  normalMat: {fileID: 2100000, guid: 5774f39d5cae4db4d9b02a9565857951, type: 2}
+  Hologram: {fileID: 2100000, guid: 3f5c7f9ca087a524f943c68671da3997, type: 2}
   bounds: 3
   strafeSpeed: 4
   phaseCooldown: 2

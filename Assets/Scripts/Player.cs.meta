@@ -3,7 +3,10 @@ guid: 468c8536b026e4d5e9759c46554636c2
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - manager: {instanceID: 0}
+  - normalMat: {instanceID: 0}
+  - Hologram: {fileID: 2100000, guid: 3f5c7f9ca087a524f943c68671da3997, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

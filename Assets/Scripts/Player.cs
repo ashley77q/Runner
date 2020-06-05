@@ -10,7 +10,8 @@ public class Player : MonoBehaviour
 
     public Gamemanager manager;
     public Material normalMat;
-    public Material phasedMat;
+    public Material Hologram;
+        
 
     [Header("Gameplay")]
 
@@ -45,7 +46,7 @@ public class Player : MonoBehaviour
 
 
             canPhase = false;
-            mesh.material = phasedMat;
+            mesh.material = Hologram;
             collision.enabled = false;
 
             Invoke("PhaseIn", phaseCooldown);
