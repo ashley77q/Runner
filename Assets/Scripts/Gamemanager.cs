@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Gamemanager : MonoBehaviour
 
@@ -16,13 +17,24 @@ public class Gamemanager : MonoBehaviour
     //keeps track of time 
     {
         if (isGameOver)
+        {
+            if (Input.anyKeyDown)
+                SceneManager.LoadScene("SampleScene");
+            return;
+
+        }
+        if (isGameOver)
             return;
         totalTimeElapsed += Time.deltaTime;
         gameTime -= Time.deltaTime;
 
         if (gameTime <= 0)
             isGameOver = true;
+
+        
     }
+
+   
 
     public void AdjustTime(float amount)
     {
