@@ -2,18 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//public class Particle : MonoBehaviour
-{
-   // public Transform IceParticle;
-    // Start is called before the first frame update
-    //void Start()
-    {
-       // IceParticle.GetComponent<ParticleSystem>().enableEmission = false;
-    }
-    //void OnTriggerEnter2D()
-    {
+public class Particle : MonoBehaviour
 
-       // IceParticle.GetComponent<ParticleSystem>().enableEmission = true;
+{
+    public Transform IceParticle;
+    // Start is called before the first frame update
+    void Start()
+    {
+       IceParticle.GetComponent<ParticleSystem>().enableEmission = false;
+    }
+    void OnTriggerEnter()
+    {
+        Debug.Log("We triggered something!");
+       IceParticle.GetComponent<ParticleSystem>().enableEmission = true;
         //StartCoroutine(stopIceParticle());
 
 
