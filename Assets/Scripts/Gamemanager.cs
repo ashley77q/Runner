@@ -6,9 +6,14 @@ using UnityEngine.SceneManagement;
 public class Gamemanager : MonoBehaviour
 
 {
+    //assign  in inspector here
+    [SerializeField] public ParticleSystem _slowparticleSystem;
+   
+
     //Total game time
     public TextureScroller Ground;
     public float gameTime = 10;
+    
 
     float totalTimeElapsed = 0;
     bool isGameOver = false;
@@ -31,17 +36,23 @@ public class Gamemanager : MonoBehaviour
         if (gameTime <= 0)
             isGameOver = true;
 
-        
     }
 
    
 
     public void AdjustTime(float amount)
-    {
 
-        gameTime += amount;
-        if (amount < 0)
-            SlowWorldDown();
+    {
+        {
+
+            _slowparticleSystem.Stop();
+            gameTime += amount;
+            if (amount < 0)
+                SlowWorldDown();
+
+            if (amount < 0)
+                _slowparticleSystem.Play();
+        }
     }
 
     void SlowWorldDown()
