@@ -18,16 +18,30 @@ public class Gamemanager : MonoBehaviour
     float totalTimeElapsed = 0;
     bool isGameOver = false;
 
-    void Update()
-    //keeps track of time 
+    private void Start()
     {
+        Time.timeScale = 1f;
+    }
+
+    public void RestartGame()
+    {
+
+        Debug.Log("RestartGame");
         if (isGameOver)
         {
-            if (Input.anyKeyDown)
-                SceneManager.LoadScene("SampleScene");
-            return;
+
+            isGameOver = false;
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("SmapleScene");
+
 
         }
+
+    }
+
+    void Update() { 
+    //keeps track of time 
+    
         if (isGameOver)
             return;
         totalTimeElapsed += Time.deltaTime;
@@ -77,6 +91,7 @@ public class Gamemanager : MonoBehaviour
         if (!isGameOver)
 
         {
+            //Draws the remaing time to the scene while the game is running and shows the total time the game lasted after it ends.
             Rect boxRect = new Rect(Screen.width / 2 - 50, Screen.height - 100, 100, 50);
             GUI.Box(boxRect, "Time Remaining");
 
@@ -92,7 +107,7 @@ public class Gamemanager : MonoBehaviour
             Rect labelRect = new Rect(Screen.width / 2 - 55, Screen.height / 2 - 80, 90, 40);
             GUI.Label(labelRect, "Total Time: " + (int)totalTimeElapsed);
 
-            Time.timeScale = 0;
+            Time.timeScale = 0f;
             }
         }
     }
