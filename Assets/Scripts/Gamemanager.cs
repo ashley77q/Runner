@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Gamemanager : MonoBehaviour
 
 {
+    public GameObject GameOverContainer;
     //assign  in inspector here
     [SerializeField] public ParticleSystem _slowparticleSystem;
    
@@ -89,8 +90,9 @@ public class Gamemanager : MonoBehaviour
     void OnGUI()
     {
         if (!isGameOver)
-
         {
+            
+
             //Draws the remaing time to the scene while the game is running and shows the total time the game lasted after it ends.
             Rect boxRect = new Rect(Screen.width / 2 - 50, Screen.height - 100, 100, 50);
             GUI.Box(boxRect, "Time Remaining");
@@ -99,8 +101,9 @@ public class Gamemanager : MonoBehaviour
             GUI.Label(labelRect, ((int)gameTime).ToString());
 
         }
-        else
+        else 
         {
+            GameOverContainer.SetActive(true);
             Rect boxRect = new Rect(Screen.width / 2 - 60, Screen.height / 2 - 100, 120, 50);
             GUI.Box(boxRect, "Game Over");
            
