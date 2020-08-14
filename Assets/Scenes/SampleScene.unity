@@ -603,7 +603,7 @@ GameObject:
   - component: {fileID: 894886599}
   - component: {fileID: 894886598}
   m_Layer: 5
-  m_Name: Text
+  m_Name: menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5726,7 +5726,7 @@ GameObject:
   - component: {fileID: 1154206950}
   - component: {fileID: 1154206949}
   m_Layer: 5
-  m_Name: Button
+  m_Name: uitext
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5861,6 +5861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10ce7bd1231a94f51af8c5f1d5c979e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  uitext: {fileID: 894886598}
   GameOverContainer: {fileID: 141049245}
   _slowparticleSystem: {fileID: 1002621604}
   Ground: {fileID: 680873600}
