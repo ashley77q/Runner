@@ -135,7 +135,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &141049246
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5937,6 +5937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uitext: {fileID: 894886598}
   GameOverContainer: {fileID: 141049245}
+  animator: {fileID: 0}
   _slowparticleSystem: {fileID: 1002621604}
   Ground: {fileID: 680873600}
   gameTime: 10

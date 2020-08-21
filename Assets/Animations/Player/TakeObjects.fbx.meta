@@ -1,434 +1,1241 @@
 fileFormatVersion: 2
 guid: 836db2ed51e808246958923579aa47e0
-timeCreated: 1473672060
-licenseType: Store
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Controls
-    100002: ControlsEyeDirection
-    100004: ControlsHips
-    100006: ControlsLeftFoot
-    100008: ControlsLeftHand
-    100010: ControlsLeftIndex1
-    100012: ControlsLeftIndex2
-    100014: ControlsLeftIndex3
-    100016: ControlsLeftLegPoleVector
-    100018: ControlsLeftLegPoleVector1
-    100020: ControlsLeftMiddle1
-    100022: ControlsLeftMiddle2
-    100024: ControlsLeftMiddle3
-    100026: ControlsLeftPinky1
-    100028: ControlsLeftPinky2
-    100030: ControlsLeftPinky3
-    100032: ControlsLeftRing1
-    100034: ControlsLeftRing2
-    100036: ControlsLeftRing3
-    100038: ControlsLeftShoulder
-    100040: ControlsLeftThumb1
-    100042: ControlsLeftThumb2
-    100044: ControlsLeftThumb3
-    100046: ControlsLeftThumbOrient
-    100048: ControlsLowerEyelid
-    100050: ControlsNeck
-    100052: ControlsRightFoot
-    100054: ControlsRightHand
-    100056: ControlsRightIndex1
-    100058: ControlsRightIndex2
-    100060: ControlsRightIndex3
-    100062: ControlsRightLegPoleVector
-    100064: ControlsRightLegPoleVector2
-    100066: ControlsRightMiddle1
-    100068: ControlsRightMiddle2
-    100070: ControlsRightMiddle3
-    100072: ControlsRightPinky1
-    100074: ControlsRightPinky2
-    100076: ControlsRightPinky3
-    100078: ControlsRightRing1
-    100080: ControlsRightRing2
-    100082: ControlsRightRing3
-    100084: ControlsRightShoulder
-    100086: ControlsRightThumb1
-    100088: ControlsRightThumb2
-    100090: ControlsRightThumb3
-    100092: ControlsRightThumbOrient
-    100094: ControlsSpine1
-    100096: ControlsSpine2
-    100098: ControlsSpine3
-    100100: ControlsUpperBody
-    100102: ControlsUpperEyelid
-    100104: Head
-    100106: HeadEND
-    100108: HeelPeel
-    100110: HeelPeel 1
-    100112: Hips
-    100114: ikHandleLeftArm
-    100116: ikHandleLeftFoot
-    100118: ikHandleLeftLeg
-    100120: ikHandleLeftToe
-    100122: ikHandleRightArm
-    100124: ikHandleRightFoot
-    100126: ikHandleRightLeg
-    100128: ikHandleRightToe
-    100130: LeftArm
-    100132: LeftEye
-    100134: LeftFoot
-    100136: LeftHand
-    100138: LeftIndex1
-    100140: LeftIndex2
-    100142: LeftIndex3
-    100144: LeftIndexEND
-    100146: LeftLeg
-    100148: LeftMiddle1
-    100150: LeftMiddle2
-    100152: LeftMiddle3
-    100154: LeftMiddleEND
-    100156: LeftPinky1
-    100158: LeftPinky2
-    100160: LeftPinky3
-    100162: LeftPinkyEND
-    100164: LeftRing1
-    100166: LeftRing2
-    100168: LeftRing3
-    100170: LeftRingEND
-    100172: LeftShoulder
-    100174: LeftThumb1
-    100176: LeftThumb2
-    100178: LeftThumb3
-    100180: LeftThumbEND
-    100182: LeftThumbEnd
-    100184: LeftToe
-    100186: LeftToeEND
-    100188: LeftUpperArm
-    100190: LeftUpperLeg
-    100192: LowerEyelids
-    100194: Mesh
-    100196: Neck
-    100198: RightArm
-    100200: RightEye
-    100202: RightFoot
-    100204: RightHand
-    100206: RightIndex1
-    100208: RightIndex2
-    100210: RightIndex3
-    100212: RightIndexEND
-    100214: RightLeg
-    100216: RightMiddle1
-    100218: RightMiddle2
-    100220: RightMiddle3
-    100222: RightMiddleEND
-    100224: RightPinky1
-    100226: RightPinky2
-    100228: RightPinky3
-    100230: RightPinkyEND
-    100232: RightRing1
-    100234: RightRing2
-    100236: RightRing3
-    100238: RightRingEND
-    100240: RightShoulder
-    100242: RightThumb1
-    100244: RightThumb2
-    100246: RightThumb3
-    100248: RightThumbEND
-    100250: RightThumbEnd
-    100252: RightToe
-    100254: RightToeEND
-    100256: RightUpperArm
-    100258: RightUpperLeg
-    100260: Skeleton
-    100262: Spine1
-    100264: Spine2
-    100266: Swivel
-    100268: Swivel 1
-    100270: //RootNode
-    100272: ToeTap
-    100274: ToeTap 1
-    100276: ToeTip
-    100278: ToeTip 1
-    100280: UpperEyelids
-    100282: LowerEyelidsEND
-    100284: UpperEyelidsEND
-    400000: Controls
-    400002: ControlsEyeDirection
-    400004: ControlsHips
-    400006: ControlsLeftFoot
-    400008: ControlsLeftHand
-    400010: ControlsLeftIndex1
-    400012: ControlsLeftIndex2
-    400014: ControlsLeftIndex3
-    400016: ControlsLeftLegPoleVector
-    400018: ControlsLeftLegPoleVector1
-    400020: ControlsLeftMiddle1
-    400022: ControlsLeftMiddle2
-    400024: ControlsLeftMiddle3
-    400026: ControlsLeftPinky1
-    400028: ControlsLeftPinky2
-    400030: ControlsLeftPinky3
-    400032: ControlsLeftRing1
-    400034: ControlsLeftRing2
-    400036: ControlsLeftRing3
-    400038: ControlsLeftShoulder
-    400040: ControlsLeftThumb1
-    400042: ControlsLeftThumb2
-    400044: ControlsLeftThumb3
-    400046: ControlsLeftThumbOrient
-    400048: ControlsLowerEyelid
-    400050: ControlsNeck
-    400052: ControlsRightFoot
-    400054: ControlsRightHand
-    400056: ControlsRightIndex1
-    400058: ControlsRightIndex2
-    400060: ControlsRightIndex3
-    400062: ControlsRightLegPoleVector
-    400064: ControlsRightLegPoleVector2
-    400066: ControlsRightMiddle1
-    400068: ControlsRightMiddle2
-    400070: ControlsRightMiddle3
-    400072: ControlsRightPinky1
-    400074: ControlsRightPinky2
-    400076: ControlsRightPinky3
-    400078: ControlsRightRing1
-    400080: ControlsRightRing2
-    400082: ControlsRightRing3
-    400084: ControlsRightShoulder
-    400086: ControlsRightThumb1
-    400088: ControlsRightThumb2
-    400090: ControlsRightThumb3
-    400092: ControlsRightThumbOrient
-    400094: ControlsSpine1
-    400096: ControlsSpine2
-    400098: ControlsSpine3
-    400100: ControlsUpperBody
-    400102: ControlsUpperEyelid
-    400104: Head
-    400106: HeadEND
-    400108: HeelPeel
-    400110: HeelPeel 1
-    400112: Hips
-    400114: ikHandleLeftArm
-    400116: ikHandleLeftFoot
-    400118: ikHandleLeftLeg
-    400120: ikHandleLeftToe
-    400122: ikHandleRightArm
-    400124: ikHandleRightFoot
-    400126: ikHandleRightLeg
-    400128: ikHandleRightToe
-    400130: LeftArm
-    400132: LeftEye
-    400134: LeftFoot
-    400136: LeftHand
-    400138: LeftIndex1
-    400140: LeftIndex2
-    400142: LeftIndex3
-    400144: LeftIndexEND
-    400146: LeftLeg
-    400148: LeftMiddle1
-    400150: LeftMiddle2
-    400152: LeftMiddle3
-    400154: LeftMiddleEND
-    400156: LeftPinky1
-    400158: LeftPinky2
-    400160: LeftPinky3
-    400162: LeftPinkyEND
-    400164: LeftRing1
-    400166: LeftRing2
-    400168: LeftRing3
-    400170: LeftRingEND
-    400172: LeftShoulder
-    400174: LeftThumb1
-    400176: LeftThumb2
-    400178: LeftThumb3
-    400180: LeftThumbEND
-    400182: LeftThumbEnd
-    400184: LeftToe
-    400186: LeftToeEND
-    400188: LeftUpperArm
-    400190: LeftUpperLeg
-    400192: LowerEyelids
-    400194: Mesh
-    400196: Neck
-    400198: RightArm
-    400200: RightEye
-    400202: RightFoot
-    400204: RightHand
-    400206: RightIndex1
-    400208: RightIndex2
-    400210: RightIndex3
-    400212: RightIndexEND
-    400214: RightLeg
-    400216: RightMiddle1
-    400218: RightMiddle2
-    400220: RightMiddle3
-    400222: RightMiddleEND
-    400224: RightPinky1
-    400226: RightPinky2
-    400228: RightPinky3
-    400230: RightPinkyEND
-    400232: RightRing1
-    400234: RightRing2
-    400236: RightRing3
-    400238: RightRingEND
-    400240: RightShoulder
-    400242: RightThumb1
-    400244: RightThumb2
-    400246: RightThumb3
-    400248: RightThumbEND
-    400250: RightThumbEnd
-    400252: RightToe
-    400254: RightToeEND
-    400256: RightUpperArm
-    400258: RightUpperLeg
-    400260: Skeleton
-    400262: Spine1
-    400264: Spine2
-    400266: Swivel
-    400268: Swivel 1
-    400270: //RootNode
-    400272: ToeTap
-    400274: ToeTap 1
-    400276: ToeTip
-    400278: ToeTip 1
-    400280: UpperEyelids
-    400282: LowerEyelidsEND
-    400284: UpperEyelidsEND
-    2300000: ControlsLeftIndex1
-    2300002: ControlsLeftIndex2
-    2300004: ControlsLeftIndex3
-    2300006: ControlsLeftLegPoleVector
-    2300008: ControlsLeftLegPoleVector1
-    2300010: ControlsLeftMiddle1
-    2300012: ControlsLeftMiddle2
-    2300014: ControlsLeftMiddle3
-    2300016: ControlsLeftPinky1
-    2300018: ControlsLeftPinky2
-    2300020: ControlsLeftPinky3
-    2300022: ControlsLeftRing1
-    2300024: ControlsLeftRing2
-    2300026: ControlsLeftRing3
-    2300028: ControlsLeftThumb1
-    2300030: ControlsLeftThumb2
-    2300032: ControlsLeftThumb3
-    2300034: ControlsLowerEyelid
-    2300036: ControlsRightIndex1
-    2300038: ControlsRightIndex2
-    2300040: ControlsRightIndex3
-    2300042: ControlsRightLegPoleVector
-    2300044: ControlsRightLegPoleVector2
-    2300046: ControlsRightMiddle1
-    2300048: ControlsRightMiddle2
-    2300050: ControlsRightMiddle3
-    2300052: ControlsRightPinky1
-    2300054: ControlsRightPinky2
-    2300056: ControlsRightPinky3
-    2300058: ControlsRightRing1
-    2300060: ControlsRightRing2
-    2300062: ControlsRightRing3
-    2300064: ControlsRightThumb1
-    2300066: ControlsRightThumb2
-    2300068: ControlsRightThumb3
-    2300070: ControlsUpperEyelid
-    3300000: ControlsLeftIndex1
-    3300002: ControlsLeftIndex2
-    3300004: ControlsLeftIndex3
-    3300006: ControlsLeftLegPoleVector
-    3300008: ControlsLeftLegPoleVector1
-    3300010: ControlsLeftMiddle1
-    3300012: ControlsLeftMiddle2
-    3300014: ControlsLeftMiddle3
-    3300016: ControlsLeftPinky1
-    3300018: ControlsLeftPinky2
-    3300020: ControlsLeftPinky3
-    3300022: ControlsLeftRing1
-    3300024: ControlsLeftRing2
-    3300026: ControlsLeftRing3
-    3300028: ControlsLeftThumb1
-    3300030: ControlsLeftThumb2
-    3300032: ControlsLeftThumb3
-    3300034: ControlsLowerEyelid
-    3300036: ControlsRightIndex1
-    3300038: ControlsRightIndex2
-    3300040: ControlsRightIndex3
-    3300042: ControlsRightLegPoleVector
-    3300044: ControlsRightLegPoleVector2
-    3300046: ControlsRightMiddle1
-    3300048: ControlsRightMiddle2
-    3300050: ControlsRightMiddle3
-    3300052: ControlsRightPinky1
-    3300054: ControlsRightPinky2
-    3300056: ControlsRightPinky3
-    3300058: ControlsRightRing1
-    3300060: ControlsRightRing2
-    3300062: ControlsRightRing3
-    3300064: ControlsRightThumb1
-    3300066: ControlsRightThumb2
-    3300068: ControlsRightThumb3
-    3300070: ControlsUpperEyelid
-    4300000: Mesh
-    4300002: ControlsLeftLegPoleVector
-    4300004: ControlsUpperEyelid
-    4300006: ControlsLowerEyelid
-    4300008: ControlsLeftLegPoleVector1
-    4300010: ControlsLeftIndex1
-    4300012: ControlsLeftIndex2
-    4300014: ControlsLeftIndex3
-    4300016: ControlsLeftMiddle1
-    4300018: ControlsLeftMiddle2
-    4300020: ControlsLeftMiddle3
-    4300022: ControlsLeftRing1
-    4300024: ControlsLeftRing2
-    4300026: ControlsLeftRing3
-    4300028: ControlsLeftPinky1
-    4300030: ControlsLeftPinky2
-    4300032: ControlsLeftPinky3
-    4300034: ControlsLeftThumb1
-    4300036: ControlsLeftThumb2
-    4300038: ControlsLeftThumb3
-    4300040: ControlsRightThumb1
-    4300042: ControlsRightThumb2
-    4300044: ControlsRightThumb3
-    4300046: ControlsRightPinky1
-    4300048: ControlsRightPinky2
-    4300050: ControlsRightPinky3
-    4300052: ControlsRightRing1
-    4300054: ControlsRightRing2
-    4300056: ControlsRightRing3
-    4300058: ControlsRightMiddle1
-    4300060: ControlsRightMiddle2
-    4300062: ControlsRightMiddle3
-    4300064: ControlsRightIndex1
-    4300066: ControlsRightIndex2
-    4300068: ControlsRightIndex3
-    4300070: ControlsRightLegPoleVector
-    4300072: ControlsRightLegPoleVector2
-    7400000: PlayerTakeObjectLow
-    7400002: PlayerTakeObjectMid
-    7400004: PlayerTakeObjectHigh
-    9500000: //RootNode
-    13700000: Mesh
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Controls
+  - first:
+      1: 100002
+    second: ControlsEyeDirection
+  - first:
+      1: 100004
+    second: ControlsHips
+  - first:
+      1: 100006
+    second: ControlsLeftFoot
+  - first:
+      1: 100008
+    second: ControlsLeftHand
+  - first:
+      1: 100010
+    second: ControlsLeftIndex1
+  - first:
+      1: 100012
+    second: ControlsLeftIndex2
+  - first:
+      1: 100014
+    second: ControlsLeftIndex3
+  - first:
+      1: 100016
+    second: ControlsLeftLegPoleVector
+  - first:
+      1: 100018
+    second: ControlsLeftLegPoleVector1
+  - first:
+      1: 100020
+    second: ControlsLeftMiddle1
+  - first:
+      1: 100022
+    second: ControlsLeftMiddle2
+  - first:
+      1: 100024
+    second: ControlsLeftMiddle3
+  - first:
+      1: 100026
+    second: ControlsLeftPinky1
+  - first:
+      1: 100028
+    second: ControlsLeftPinky2
+  - first:
+      1: 100030
+    second: ControlsLeftPinky3
+  - first:
+      1: 100032
+    second: ControlsLeftRing1
+  - first:
+      1: 100034
+    second: ControlsLeftRing2
+  - first:
+      1: 100036
+    second: ControlsLeftRing3
+  - first:
+      1: 100038
+    second: ControlsLeftShoulder
+  - first:
+      1: 100040
+    second: ControlsLeftThumb1
+  - first:
+      1: 100042
+    second: ControlsLeftThumb2
+  - first:
+      1: 100044
+    second: ControlsLeftThumb3
+  - first:
+      1: 100046
+    second: ControlsLeftThumbOrient
+  - first:
+      1: 100048
+    second: ControlsLowerEyelid
+  - first:
+      1: 100050
+    second: ControlsNeck
+  - first:
+      1: 100052
+    second: ControlsRightFoot
+  - first:
+      1: 100054
+    second: ControlsRightHand
+  - first:
+      1: 100056
+    second: ControlsRightIndex1
+  - first:
+      1: 100058
+    second: ControlsRightIndex2
+  - first:
+      1: 100060
+    second: ControlsRightIndex3
+  - first:
+      1: 100062
+    second: ControlsRightLegPoleVector
+  - first:
+      1: 100064
+    second: ControlsRightLegPoleVector2
+  - first:
+      1: 100066
+    second: ControlsRightMiddle1
+  - first:
+      1: 100068
+    second: ControlsRightMiddle2
+  - first:
+      1: 100070
+    second: ControlsRightMiddle3
+  - first:
+      1: 100072
+    second: ControlsRightPinky1
+  - first:
+      1: 100074
+    second: ControlsRightPinky2
+  - first:
+      1: 100076
+    second: ControlsRightPinky3
+  - first:
+      1: 100078
+    second: ControlsRightRing1
+  - first:
+      1: 100080
+    second: ControlsRightRing2
+  - first:
+      1: 100082
+    second: ControlsRightRing3
+  - first:
+      1: 100084
+    second: ControlsRightShoulder
+  - first:
+      1: 100086
+    second: ControlsRightThumb1
+  - first:
+      1: 100088
+    second: ControlsRightThumb2
+  - first:
+      1: 100090
+    second: ControlsRightThumb3
+  - first:
+      1: 100092
+    second: ControlsRightThumbOrient
+  - first:
+      1: 100094
+    second: ControlsSpine1
+  - first:
+      1: 100096
+    second: ControlsSpine2
+  - first:
+      1: 100098
+    second: ControlsSpine3
+  - first:
+      1: 100100
+    second: ControlsUpperBody
+  - first:
+      1: 100102
+    second: ControlsUpperEyelid
+  - first:
+      1: 100104
+    second: Head
+  - first:
+      1: 100106
+    second: HeadEND
+  - first:
+      1: 100108
+    second: HeelPeel
+  - first:
+      1: 100110
+    second: HeelPeel 1
+  - first:
+      1: 100112
+    second: Hips
+  - first:
+      1: 100114
+    second: ikHandleLeftArm
+  - first:
+      1: 100116
+    second: ikHandleLeftFoot
+  - first:
+      1: 100118
+    second: ikHandleLeftLeg
+  - first:
+      1: 100120
+    second: ikHandleLeftToe
+  - first:
+      1: 100122
+    second: ikHandleRightArm
+  - first:
+      1: 100124
+    second: ikHandleRightFoot
+  - first:
+      1: 100126
+    second: ikHandleRightLeg
+  - first:
+      1: 100128
+    second: ikHandleRightToe
+  - first:
+      1: 100130
+    second: LeftArm
+  - first:
+      1: 100132
+    second: LeftEye
+  - first:
+      1: 100134
+    second: LeftFoot
+  - first:
+      1: 100136
+    second: LeftHand
+  - first:
+      1: 100138
+    second: LeftIndex1
+  - first:
+      1: 100140
+    second: LeftIndex2
+  - first:
+      1: 100142
+    second: LeftIndex3
+  - first:
+      1: 100144
+    second: LeftIndexEND
+  - first:
+      1: 100146
+    second: LeftLeg
+  - first:
+      1: 100148
+    second: LeftMiddle1
+  - first:
+      1: 100150
+    second: LeftMiddle2
+  - first:
+      1: 100152
+    second: LeftMiddle3
+  - first:
+      1: 100154
+    second: LeftMiddleEND
+  - first:
+      1: 100156
+    second: LeftPinky1
+  - first:
+      1: 100158
+    second: LeftPinky2
+  - first:
+      1: 100160
+    second: LeftPinky3
+  - first:
+      1: 100162
+    second: LeftPinkyEND
+  - first:
+      1: 100164
+    second: LeftRing1
+  - first:
+      1: 100166
+    second: LeftRing2
+  - first:
+      1: 100168
+    second: LeftRing3
+  - first:
+      1: 100170
+    second: LeftRingEND
+  - first:
+      1: 100172
+    second: LeftShoulder
+  - first:
+      1: 100174
+    second: LeftThumb1
+  - first:
+      1: 100176
+    second: LeftThumb2
+  - first:
+      1: 100178
+    second: LeftThumb3
+  - first:
+      1: 100180
+    second: LeftThumbEND
+  - first:
+      1: 100182
+    second: LeftThumbEnd
+  - first:
+      1: 100184
+    second: LeftToe
+  - first:
+      1: 100186
+    second: LeftToeEND
+  - first:
+      1: 100188
+    second: LeftUpperArm
+  - first:
+      1: 100190
+    second: LeftUpperLeg
+  - first:
+      1: 100192
+    second: LowerEyelids
+  - first:
+      1: 100194
+    second: Mesh
+  - first:
+      1: 100196
+    second: Neck
+  - first:
+      1: 100198
+    second: RightArm
+  - first:
+      1: 100200
+    second: RightEye
+  - first:
+      1: 100202
+    second: RightFoot
+  - first:
+      1: 100204
+    second: RightHand
+  - first:
+      1: 100206
+    second: RightIndex1
+  - first:
+      1: 100208
+    second: RightIndex2
+  - first:
+      1: 100210
+    second: RightIndex3
+  - first:
+      1: 100212
+    second: RightIndexEND
+  - first:
+      1: 100214
+    second: RightLeg
+  - first:
+      1: 100216
+    second: RightMiddle1
+  - first:
+      1: 100218
+    second: RightMiddle2
+  - first:
+      1: 100220
+    second: RightMiddle3
+  - first:
+      1: 100222
+    second: RightMiddleEND
+  - first:
+      1: 100224
+    second: RightPinky1
+  - first:
+      1: 100226
+    second: RightPinky2
+  - first:
+      1: 100228
+    second: RightPinky3
+  - first:
+      1: 100230
+    second: RightPinkyEND
+  - first:
+      1: 100232
+    second: RightRing1
+  - first:
+      1: 100234
+    second: RightRing2
+  - first:
+      1: 100236
+    second: RightRing3
+  - first:
+      1: 100238
+    second: RightRingEND
+  - first:
+      1: 100240
+    second: RightShoulder
+  - first:
+      1: 100242
+    second: RightThumb1
+  - first:
+      1: 100244
+    second: RightThumb2
+  - first:
+      1: 100246
+    second: RightThumb3
+  - first:
+      1: 100248
+    second: RightThumbEND
+  - first:
+      1: 100250
+    second: RightThumbEnd
+  - first:
+      1: 100252
+    second: RightToe
+  - first:
+      1: 100254
+    second: RightToeEND
+  - first:
+      1: 100256
+    second: RightUpperArm
+  - first:
+      1: 100258
+    second: RightUpperLeg
+  - first:
+      1: 100260
+    second: Skeleton
+  - first:
+      1: 100262
+    second: Spine1
+  - first:
+      1: 100264
+    second: Spine2
+  - first:
+      1: 100266
+    second: Swivel
+  - first:
+      1: 100268
+    second: Swivel 1
+  - first:
+      1: 100270
+    second: //RootNode
+  - first:
+      1: 100272
+    second: ToeTap
+  - first:
+      1: 100274
+    second: ToeTap 1
+  - first:
+      1: 100276
+    second: ToeTip
+  - first:
+      1: 100278
+    second: ToeTip 1
+  - first:
+      1: 100280
+    second: UpperEyelids
+  - first:
+      1: 100282
+    second: LowerEyelidsEND
+  - first:
+      1: 100284
+    second: UpperEyelidsEND
+  - first:
+      4: 400000
+    second: Controls
+  - first:
+      4: 400002
+    second: ControlsEyeDirection
+  - first:
+      4: 400004
+    second: ControlsHips
+  - first:
+      4: 400006
+    second: ControlsLeftFoot
+  - first:
+      4: 400008
+    second: ControlsLeftHand
+  - first:
+      4: 400010
+    second: ControlsLeftIndex1
+  - first:
+      4: 400012
+    second: ControlsLeftIndex2
+  - first:
+      4: 400014
+    second: ControlsLeftIndex3
+  - first:
+      4: 400016
+    second: ControlsLeftLegPoleVector
+  - first:
+      4: 400018
+    second: ControlsLeftLegPoleVector1
+  - first:
+      4: 400020
+    second: ControlsLeftMiddle1
+  - first:
+      4: 400022
+    second: ControlsLeftMiddle2
+  - first:
+      4: 400024
+    second: ControlsLeftMiddle3
+  - first:
+      4: 400026
+    second: ControlsLeftPinky1
+  - first:
+      4: 400028
+    second: ControlsLeftPinky2
+  - first:
+      4: 400030
+    second: ControlsLeftPinky3
+  - first:
+      4: 400032
+    second: ControlsLeftRing1
+  - first:
+      4: 400034
+    second: ControlsLeftRing2
+  - first:
+      4: 400036
+    second: ControlsLeftRing3
+  - first:
+      4: 400038
+    second: ControlsLeftShoulder
+  - first:
+      4: 400040
+    second: ControlsLeftThumb1
+  - first:
+      4: 400042
+    second: ControlsLeftThumb2
+  - first:
+      4: 400044
+    second: ControlsLeftThumb3
+  - first:
+      4: 400046
+    second: ControlsLeftThumbOrient
+  - first:
+      4: 400048
+    second: ControlsLowerEyelid
+  - first:
+      4: 400050
+    second: ControlsNeck
+  - first:
+      4: 400052
+    second: ControlsRightFoot
+  - first:
+      4: 400054
+    second: ControlsRightHand
+  - first:
+      4: 400056
+    second: ControlsRightIndex1
+  - first:
+      4: 400058
+    second: ControlsRightIndex2
+  - first:
+      4: 400060
+    second: ControlsRightIndex3
+  - first:
+      4: 400062
+    second: ControlsRightLegPoleVector
+  - first:
+      4: 400064
+    second: ControlsRightLegPoleVector2
+  - first:
+      4: 400066
+    second: ControlsRightMiddle1
+  - first:
+      4: 400068
+    second: ControlsRightMiddle2
+  - first:
+      4: 400070
+    second: ControlsRightMiddle3
+  - first:
+      4: 400072
+    second: ControlsRightPinky1
+  - first:
+      4: 400074
+    second: ControlsRightPinky2
+  - first:
+      4: 400076
+    second: ControlsRightPinky3
+  - first:
+      4: 400078
+    second: ControlsRightRing1
+  - first:
+      4: 400080
+    second: ControlsRightRing2
+  - first:
+      4: 400082
+    second: ControlsRightRing3
+  - first:
+      4: 400084
+    second: ControlsRightShoulder
+  - first:
+      4: 400086
+    second: ControlsRightThumb1
+  - first:
+      4: 400088
+    second: ControlsRightThumb2
+  - first:
+      4: 400090
+    second: ControlsRightThumb3
+  - first:
+      4: 400092
+    second: ControlsRightThumbOrient
+  - first:
+      4: 400094
+    second: ControlsSpine1
+  - first:
+      4: 400096
+    second: ControlsSpine2
+  - first:
+      4: 400098
+    second: ControlsSpine3
+  - first:
+      4: 400100
+    second: ControlsUpperBody
+  - first:
+      4: 400102
+    second: ControlsUpperEyelid
+  - first:
+      4: 400104
+    second: Head
+  - first:
+      4: 400106
+    second: HeadEND
+  - first:
+      4: 400108
+    second: HeelPeel
+  - first:
+      4: 400110
+    second: HeelPeel 1
+  - first:
+      4: 400112
+    second: Hips
+  - first:
+      4: 400114
+    second: ikHandleLeftArm
+  - first:
+      4: 400116
+    second: ikHandleLeftFoot
+  - first:
+      4: 400118
+    second: ikHandleLeftLeg
+  - first:
+      4: 400120
+    second: ikHandleLeftToe
+  - first:
+      4: 400122
+    second: ikHandleRightArm
+  - first:
+      4: 400124
+    second: ikHandleRightFoot
+  - first:
+      4: 400126
+    second: ikHandleRightLeg
+  - first:
+      4: 400128
+    second: ikHandleRightToe
+  - first:
+      4: 400130
+    second: LeftArm
+  - first:
+      4: 400132
+    second: LeftEye
+  - first:
+      4: 400134
+    second: LeftFoot
+  - first:
+      4: 400136
+    second: LeftHand
+  - first:
+      4: 400138
+    second: LeftIndex1
+  - first:
+      4: 400140
+    second: LeftIndex2
+  - first:
+      4: 400142
+    second: LeftIndex3
+  - first:
+      4: 400144
+    second: LeftIndexEND
+  - first:
+      4: 400146
+    second: LeftLeg
+  - first:
+      4: 400148
+    second: LeftMiddle1
+  - first:
+      4: 400150
+    second: LeftMiddle2
+  - first:
+      4: 400152
+    second: LeftMiddle3
+  - first:
+      4: 400154
+    second: LeftMiddleEND
+  - first:
+      4: 400156
+    second: LeftPinky1
+  - first:
+      4: 400158
+    second: LeftPinky2
+  - first:
+      4: 400160
+    second: LeftPinky3
+  - first:
+      4: 400162
+    second: LeftPinkyEND
+  - first:
+      4: 400164
+    second: LeftRing1
+  - first:
+      4: 400166
+    second: LeftRing2
+  - first:
+      4: 400168
+    second: LeftRing3
+  - first:
+      4: 400170
+    second: LeftRingEND
+  - first:
+      4: 400172
+    second: LeftShoulder
+  - first:
+      4: 400174
+    second: LeftThumb1
+  - first:
+      4: 400176
+    second: LeftThumb2
+  - first:
+      4: 400178
+    second: LeftThumb3
+  - first:
+      4: 400180
+    second: LeftThumbEND
+  - first:
+      4: 400182
+    second: LeftThumbEnd
+  - first:
+      4: 400184
+    second: LeftToe
+  - first:
+      4: 400186
+    second: LeftToeEND
+  - first:
+      4: 400188
+    second: LeftUpperArm
+  - first:
+      4: 400190
+    second: LeftUpperLeg
+  - first:
+      4: 400192
+    second: LowerEyelids
+  - first:
+      4: 400194
+    second: Mesh
+  - first:
+      4: 400196
+    second: Neck
+  - first:
+      4: 400198
+    second: RightArm
+  - first:
+      4: 400200
+    second: RightEye
+  - first:
+      4: 400202
+    second: RightFoot
+  - first:
+      4: 400204
+    second: RightHand
+  - first:
+      4: 400206
+    second: RightIndex1
+  - first:
+      4: 400208
+    second: RightIndex2
+  - first:
+      4: 400210
+    second: RightIndex3
+  - first:
+      4: 400212
+    second: RightIndexEND
+  - first:
+      4: 400214
+    second: RightLeg
+  - first:
+      4: 400216
+    second: RightMiddle1
+  - first:
+      4: 400218
+    second: RightMiddle2
+  - first:
+      4: 400220
+    second: RightMiddle3
+  - first:
+      4: 400222
+    second: RightMiddleEND
+  - first:
+      4: 400224
+    second: RightPinky1
+  - first:
+      4: 400226
+    second: RightPinky2
+  - first:
+      4: 400228
+    second: RightPinky3
+  - first:
+      4: 400230
+    second: RightPinkyEND
+  - first:
+      4: 400232
+    second: RightRing1
+  - first:
+      4: 400234
+    second: RightRing2
+  - first:
+      4: 400236
+    second: RightRing3
+  - first:
+      4: 400238
+    second: RightRingEND
+  - first:
+      4: 400240
+    second: RightShoulder
+  - first:
+      4: 400242
+    second: RightThumb1
+  - first:
+      4: 400244
+    second: RightThumb2
+  - first:
+      4: 400246
+    second: RightThumb3
+  - first:
+      4: 400248
+    second: RightThumbEND
+  - first:
+      4: 400250
+    second: RightThumbEnd
+  - first:
+      4: 400252
+    second: RightToe
+  - first:
+      4: 400254
+    second: RightToeEND
+  - first:
+      4: 400256
+    second: RightUpperArm
+  - first:
+      4: 400258
+    second: RightUpperLeg
+  - first:
+      4: 400260
+    second: Skeleton
+  - first:
+      4: 400262
+    second: Spine1
+  - first:
+      4: 400264
+    second: Spine2
+  - first:
+      4: 400266
+    second: Swivel
+  - first:
+      4: 400268
+    second: Swivel 1
+  - first:
+      4: 400270
+    second: //RootNode
+  - first:
+      4: 400272
+    second: ToeTap
+  - first:
+      4: 400274
+    second: ToeTap 1
+  - first:
+      4: 400276
+    second: ToeTip
+  - first:
+      4: 400278
+    second: ToeTip 1
+  - first:
+      4: 400280
+    second: UpperEyelids
+  - first:
+      4: 400282
+    second: LowerEyelidsEND
+  - first:
+      4: 400284
+    second: UpperEyelidsEND
+  - first:
+      23: 2300000
+    second: ControlsLeftIndex1
+  - first:
+      23: 2300002
+    second: ControlsLeftIndex2
+  - first:
+      23: 2300004
+    second: ControlsLeftIndex3
+  - first:
+      23: 2300006
+    second: ControlsLeftLegPoleVector
+  - first:
+      23: 2300008
+    second: ControlsLeftLegPoleVector1
+  - first:
+      23: 2300010
+    second: ControlsLeftMiddle1
+  - first:
+      23: 2300012
+    second: ControlsLeftMiddle2
+  - first:
+      23: 2300014
+    second: ControlsLeftMiddle3
+  - first:
+      23: 2300016
+    second: ControlsLeftPinky1
+  - first:
+      23: 2300018
+    second: ControlsLeftPinky2
+  - first:
+      23: 2300020
+    second: ControlsLeftPinky3
+  - first:
+      23: 2300022
+    second: ControlsLeftRing1
+  - first:
+      23: 2300024
+    second: ControlsLeftRing2
+  - first:
+      23: 2300026
+    second: ControlsLeftRing3
+  - first:
+      23: 2300028
+    second: ControlsLeftThumb1
+  - first:
+      23: 2300030
+    second: ControlsLeftThumb2
+  - first:
+      23: 2300032
+    second: ControlsLeftThumb3
+  - first:
+      23: 2300034
+    second: ControlsLowerEyelid
+  - first:
+      23: 2300036
+    second: ControlsRightIndex1
+  - first:
+      23: 2300038
+    second: ControlsRightIndex2
+  - first:
+      23: 2300040
+    second: ControlsRightIndex3
+  - first:
+      23: 2300042
+    second: ControlsRightLegPoleVector
+  - first:
+      23: 2300044
+    second: ControlsRightLegPoleVector2
+  - first:
+      23: 2300046
+    second: ControlsRightMiddle1
+  - first:
+      23: 2300048
+    second: ControlsRightMiddle2
+  - first:
+      23: 2300050
+    second: ControlsRightMiddle3
+  - first:
+      23: 2300052
+    second: ControlsRightPinky1
+  - first:
+      23: 2300054
+    second: ControlsRightPinky2
+  - first:
+      23: 2300056
+    second: ControlsRightPinky3
+  - first:
+      23: 2300058
+    second: ControlsRightRing1
+  - first:
+      23: 2300060
+    second: ControlsRightRing2
+  - first:
+      23: 2300062
+    second: ControlsRightRing3
+  - first:
+      23: 2300064
+    second: ControlsRightThumb1
+  - first:
+      23: 2300066
+    second: ControlsRightThumb2
+  - first:
+      23: 2300068
+    second: ControlsRightThumb3
+  - first:
+      23: 2300070
+    second: ControlsUpperEyelid
+  - first:
+      33: 3300000
+    second: ControlsLeftIndex1
+  - first:
+      33: 3300002
+    second: ControlsLeftIndex2
+  - first:
+      33: 3300004
+    second: ControlsLeftIndex3
+  - first:
+      33: 3300006
+    second: ControlsLeftLegPoleVector
+  - first:
+      33: 3300008
+    second: ControlsLeftLegPoleVector1
+  - first:
+      33: 3300010
+    second: ControlsLeftMiddle1
+  - first:
+      33: 3300012
+    second: ControlsLeftMiddle2
+  - first:
+      33: 3300014
+    second: ControlsLeftMiddle3
+  - first:
+      33: 3300016
+    second: ControlsLeftPinky1
+  - first:
+      33: 3300018
+    second: ControlsLeftPinky2
+  - first:
+      33: 3300020
+    second: ControlsLeftPinky3
+  - first:
+      33: 3300022
+    second: ControlsLeftRing1
+  - first:
+      33: 3300024
+    second: ControlsLeftRing2
+  - first:
+      33: 3300026
+    second: ControlsLeftRing3
+  - first:
+      33: 3300028
+    second: ControlsLeftThumb1
+  - first:
+      33: 3300030
+    second: ControlsLeftThumb2
+  - first:
+      33: 3300032
+    second: ControlsLeftThumb3
+  - first:
+      33: 3300034
+    second: ControlsLowerEyelid
+  - first:
+      33: 3300036
+    second: ControlsRightIndex1
+  - first:
+      33: 3300038
+    second: ControlsRightIndex2
+  - first:
+      33: 3300040
+    second: ControlsRightIndex3
+  - first:
+      33: 3300042
+    second: ControlsRightLegPoleVector
+  - first:
+      33: 3300044
+    second: ControlsRightLegPoleVector2
+  - first:
+      33: 3300046
+    second: ControlsRightMiddle1
+  - first:
+      33: 3300048
+    second: ControlsRightMiddle2
+  - first:
+      33: 3300050
+    second: ControlsRightMiddle3
+  - first:
+      33: 3300052
+    second: ControlsRightPinky1
+  - first:
+      33: 3300054
+    second: ControlsRightPinky2
+  - first:
+      33: 3300056
+    second: ControlsRightPinky3
+  - first:
+      33: 3300058
+    second: ControlsRightRing1
+  - first:
+      33: 3300060
+    second: ControlsRightRing2
+  - first:
+      33: 3300062
+    second: ControlsRightRing3
+  - first:
+      33: 3300064
+    second: ControlsRightThumb1
+  - first:
+      33: 3300066
+    second: ControlsRightThumb2
+  - first:
+      33: 3300068
+    second: ControlsRightThumb3
+  - first:
+      33: 3300070
+    second: ControlsUpperEyelid
+  - first:
+      43: 4300000
+    second: Mesh
+  - first:
+      43: 4300002
+    second: ControlsLeftLegPoleVector
+  - first:
+      43: 4300004
+    second: ControlsUpperEyelid
+  - first:
+      43: 4300006
+    second: ControlsLowerEyelid
+  - first:
+      43: 4300008
+    second: ControlsLeftLegPoleVector1
+  - first:
+      43: 4300010
+    second: ControlsLeftIndex1
+  - first:
+      43: 4300012
+    second: ControlsLeftIndex2
+  - first:
+      43: 4300014
+    second: ControlsLeftIndex3
+  - first:
+      43: 4300016
+    second: ControlsLeftMiddle1
+  - first:
+      43: 4300018
+    second: ControlsLeftMiddle2
+  - first:
+      43: 4300020
+    second: ControlsLeftMiddle3
+  - first:
+      43: 4300022
+    second: ControlsLeftRing1
+  - first:
+      43: 4300024
+    second: ControlsLeftRing2
+  - first:
+      43: 4300026
+    second: ControlsLeftRing3
+  - first:
+      43: 4300028
+    second: ControlsLeftPinky1
+  - first:
+      43: 4300030
+    second: ControlsLeftPinky2
+  - first:
+      43: 4300032
+    second: ControlsLeftPinky3
+  - first:
+      43: 4300034
+    second: ControlsLeftThumb1
+  - first:
+      43: 4300036
+    second: ControlsLeftThumb2
+  - first:
+      43: 4300038
+    second: ControlsLeftThumb3
+  - first:
+      43: 4300040
+    second: ControlsRightThumb1
+  - first:
+      43: 4300042
+    second: ControlsRightThumb2
+  - first:
+      43: 4300044
+    second: ControlsRightThumb3
+  - first:
+      43: 4300046
+    second: ControlsRightPinky1
+  - first:
+      43: 4300048
+    second: ControlsRightPinky2
+  - first:
+      43: 4300050
+    second: ControlsRightPinky3
+  - first:
+      43: 4300052
+    second: ControlsRightRing1
+  - first:
+      43: 4300054
+    second: ControlsRightRing2
+  - first:
+      43: 4300056
+    second: ControlsRightRing3
+  - first:
+      43: 4300058
+    second: ControlsRightMiddle1
+  - first:
+      43: 4300060
+    second: ControlsRightMiddle2
+  - first:
+      43: 4300062
+    second: ControlsRightMiddle3
+  - first:
+      43: 4300064
+    second: ControlsRightIndex1
+  - first:
+      43: 4300066
+    second: ControlsRightIndex2
+  - first:
+      43: 4300068
+    second: ControlsRightIndex3
+  - first:
+      43: 4300070
+    second: ControlsRightLegPoleVector
+  - first:
+      43: 4300072
+    second: ControlsRightLegPoleVector2
+  - first:
+      74: 7400000
+    second: PlayerTakeObjectLow
+  - first:
+      74: 7400002
+    second: PlayerTakeObjectMid
+  - first:
+      74: 7400004
+    second: PlayerTakeObjectHigh
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Mesh
+  externalObjects: {}
   materials:
     importMaterials: 0
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: "Invalid copied Avatar Rig Configuration:\n\tNo human bone found.
+      Ensure both rig type match\n"
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
       name: PlayerTakeObjectLow
       takeName: Take 001
+      internalID: 0
       firstFrame: 1
       lastFrame: 110
       wrapMode: 0
@@ -613,6 +1420,7 @@ ModelImporter:
     - serializedVersion: 16
       name: PlayerTakeObjectMid
       takeName: Take 001
+      internalID: 0
       firstFrame: 111
       lastFrame: 185
       wrapMode: 0
@@ -797,6 +1605,7 @@ ModelImporter:
     - serializedVersion: 16
       name: PlayerTakeObjectHigh
       takeName: Take 001
+      internalID: 0
       firstFrame: 186
       lastFrame: 250
       wrapMode: 0
@@ -984,13 +1793,23 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -1000,9 +1819,15 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 1
   humanDescription:
+    serializedVersion: 3
     human:
     - boneName: Hips
       humanName: Hips
@@ -1430,385 +2255,385 @@ ModelImporter:
         modified: 0
     skeleton:
     - name: Player(Clone)
+      parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Controls
+      parentName: 
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: ControlsUpperBody
+      parentName: 
       position: {x: -0, y: 0.9856257, z: -0.028446734}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: ControlsHips
+      parentName: 
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Mesh
+      parentName: 
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Skeleton
+      parentName: 
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Hips
+      parentName: 
       position: {x: 0, y: 0.9088629, z: -0.028446734}
       rotation: {x: 0.7071068, y: -0.7071068, z: -4.3297806e-17, w: 4.3297806e-17}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftUpperLeg
+      parentName: 
       position: {x: 0.037347827, y: 0.092801034, z: 0.0064211558}
       rotation: {x: -0.0033267832, y: 0.99839103, z: 0.056605782, w: -0.0004065326}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftLeg
+      parentName: 
       position: {x: -0.37195736, y: -1.236171e-16, z: 5.1000362e-18}
       rotation: {x: -0.0004567116, y: -0.052333966, z: -0.008714577, w: 0.99859154}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftFoot
+      parentName: 
       position: {x: -0.41152263, y: -0.0015294757, z: -0.002893631}
       rotation: {x: 0.050357435, y: 0.49969903, z: 0.026062192, w: 0.86434126}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftToe
+      parentName: 
       position: {x: -0.1110157, y: -2.5535128e-17, z: 8.2057634e-17}
       rotation: {x: 4.2141773e-14, y: 0.3007058, z: -1.328725e-14, w: 0.95371693}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftToeEND
+      parentName: 
       position: {x: -0.11182804, y: -2.918769e-18, z: 9.290528e-17}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightUpperLeg
+      parentName: 
       position: {x: 0.037347663, y: -0.092801, z: 0.0064211655}
       rotation: {x: -0.05660591, y: 0.00040653365, z: -0.003326788, w: 0.99839103}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightLeg
+      parentName: 
       position: {x: 0.37195793, y: 5.9421585e-17, z: -4.0592486e-18}
       rotation: {x: -0.0004567116, y: -0.052333966, z: -0.008714577, w: 0.99859154}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightFoot
+      parentName: 
       position: {x: 0.41152248, y: 0.001529468, z: 0.0028936374}
       rotation: {x: 0.05035755, y: 0.49969906, z: 0.026062248, w: 0.86434126}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightToe
+      parentName: 
       position: {x: 0.11101543, y: -0.000000079186826, z: -0.0000003664904}
       rotation: {x: 0, y: 0.3007058, z: -0, w: 0.95371693}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightToeEND
+      parentName: 
       position: {x: 0.111827955, y: 0.000000072275725, z: 0.00000062929314}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Spine1
+      parentName: 
       position: {x: -0.10568693, y: 0, z: 0}
       rotation: {x: -6.123234e-17, y: -6.123234e-17, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Spine2
+      parentName: 
       position: {x: -0.1833106, y: 8.548717e-16, z: -4.440892e-18}
       rotation: {x: -6.5194134e-17, y: 0.087155744, z: 3.8665733e-34, w: 0.9961947}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftShoulder
+      parentName: 
       position: {x: -0.1435461, y: 0.03922616, z: 0.022630278}
       rotation: {x: -0.68924034, y: 0.71203506, z: 0.0130629325, w: 0.13335347}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftUpperArm
+      parentName: 
       position: {x: -0.11169202, y: -1.3877788e-17, z: -5.851063e-17}
       rotation: {x: 0.0016100118, y: 0.104498126, z: -0.025915265, w: 0.9941861}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftArm
+      parentName: 
       position: {x: -0.2715663, y: 0, z: 0}
       rotation: {x: 8.2024617e-16, y: 0.000052097534, z: -8.848866e-16, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftHand
+      parentName: 
       position: {x: -0.2331744, y: -2.842171e-16, z: 0}
       rotation: {x: -0.0000024176625, y: -0.0028313876, z: 0.000843909, w: 0.99999565}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftIndex1
+      parentName: 
       position: {x: -0.09506476, y: 0.00005518901, z: 0.03229297}
       rotation: {x: -0.0011345763, y: -0.0028024006, z: 0.0008470825, w: 0.9999951}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftIndex2
+      parentName: 
       position: {x: -0.031456187, y: 0, z: 0}
       rotation: {x: -8.665147e-19, y: -4.7715484e-18, z: 1.6233386e-18, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftIndex3
+      parentName: 
       position: {x: -0.026145402, y: 0, z: 0}
       rotation: {x: -8.665147e-19, y: -4.7715484e-18, z: 1.6233386e-18, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftIndexEND
+      parentName: 
       position: {x: -0.030434882, y: 0, z: 8.881784e-18}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftMiddle1
+      parentName: 
       position: {x: -0.09450546, y: -0.000005017072, z: 0.0054007857}
       rotation: {x: -0.0011345763, y: -0.0028024006, z: 0.0008470825, w: 0.9999951}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftMiddle2
+      parentName: 
       position: {x: -0.03860532, y: 0, z: 0}
       rotation: {x: -8.665147e-19, y: -4.7715484e-18, z: 1.6233386e-18, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftMiddle3
+      parentName: 
       position: {x: -0.029822098, y: 0, z: 0}
       rotation: {x: 1.6940659e-21, y: -3.0374601e-18, z: 1.5144949e-18, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftMiddleEND
+      parentName: 
       position: {x: -0.030639142, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftPinky1
+      parentName: 
       position: {x: -0.09338952, y: -0.00012434727, z: -0.047905773}
       rotation: {x: -0.0011345763, y: -0.0028024006, z: 0.0008470825, w: 0.9999951}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftPinky2
+      parentName: 
       position: {x: -0.02757523, y: 0, z: 0}
       rotation: {x: -8.665147e-19, y: -4.7715484e-18, z: 1.6233386e-18, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftPinky3
+      parentName: 
       position: {x: -0.023694271, y: 0, z: -1.7763568e-17}
       rotation: {x: -8.665147e-19, y: -4.7715484e-18, z: 1.6233386e-18, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftPinkyEND
+      parentName: 
       position: {x: -0.023898533, y: 0, z: 1.7763568e-17}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftRing1
+      parentName: 
       position: {x: -0.09456046, y: -0.00006564576, z: -0.02122128}
       rotation: {x: -0.0011345763, y: -0.0028024006, z: 0.0008470825, w: 0.9999951}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftRing2
+      parentName: 
       position: {x: -0.033294536, y: 0, z: 0}
       rotation: {x: -8.665147e-19, y: -4.7715484e-18, z: 1.6233386e-18, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftRing3
+      parentName: 
       position: {x: -0.02573688, y: 0, z: 0}
       rotation: {x: -8.665147e-19, y: -4.7715484e-18, z: 1.6233386e-18, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftRingEND
+      parentName: 
       position: {x: -0.032273233, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftThumb1
+      parentName: 
       position: {x: -0.014531664, y: -0.010635542, z: 0.02609546}
       rotation: {x: -0.001391087, y: 0.43585023, z: 0.00026398723, w: 0.90001816}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftThumb2
+      parentName: 
       position: {x: -0.044124622, y: 0, z: 4.440892e-18}
       rotation: {x: 0.0000001058215, y: -0.03346803, z: -0.000001782842, w: 0.99943984}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftThumb3
+      parentName: 
       position: {x: -0.03446204, y: 0, z: -1.5543122e-17}
       rotation: {x: 1.1354973e-16, y: 0.017452406, z: 2.3701255e-16, w: 0.9998477}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftThumbEnd
+      parentName: 
       position: {x: -0.027849242, y: 0, z: -2.220446e-18}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftThumbEND
+      parentName: 
       position: {x: 1.1400142e-18, y: 0, z: -1.9054521e-18}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Neck
+      parentName: 
       position: {x: -0.2294332, y: -1.821977e-17, z: 0.0049986364}
       rotation: {x: -2.775558e-17, y: -0.29237172, z: 4.0278586e-33, w: 0.9563048}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: Head
+      parentName: 
       position: {x: -0.10867395, y: -1.1779883e-16, z: 1.4210854e-16}
       rotation: {x: -1.3877788e-17, y: 0.19936794, z: -3.9307714e-34, w: 0.9799247}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: HeadEND
+      parentName: 
       position: {x: -0.24878563, y: -1.5987211e-16, z: 7.902685e-17}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LeftEye
+      parentName: 
       position: {x: -0.06898784, y: 0.042644892, z: -0.067543894}
       rotation: {x: 0.49111634, y: -0.4841803, z: 0.50882685, w: 0.5152373}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: LowerEyelids
+      parentName: 
       position: {x: -0.05675008, y: -8.5596115e-16, z: -0.09207437}
       rotation: {x: 5.89806e-17, y: -8.6736174e-19, z: 1.110223e-16, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightEye
+      parentName: 
       position: {x: -0.06898793, y: -0.0426449, z: -0.06754389}
       rotation: {x: -1.1714554e-15, y: 1, z: 2.8327693e-16, w: 7.7545535e-17}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: UpperEyelids
+      parentName: 
       position: {x: -0.07905001, y: -8.603375e-16, z: -0.096244544}
       rotation: {x: 5.89806e-17, y: -8.6736174e-19, z: 1.110223e-16, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightShoulder
+      parentName: 
       position: {x: -0.14354727, y: -0.0392262, z: 0.022630045}
       rotation: {x: -0.0130629325, y: -0.13335347, z: -0.68924034, w: 0.71203506}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightUpperArm
+      parentName: 
       position: {x: 0.11169233, y: 0.0000013741218, z: -0.000000017416571}
       rotation: {x: 0.99418354, y: -0.02591735, z: -0.10452178, w: -0.0016203261}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightArm
+      parentName: 
       position: {x: 0.27156565, y: -0.0000016521891, z: -0.000000010419892}
       rotation: {x: -0.000011964993, y: 0.0000000651813, z: -0.000010528297, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightHand
+      parentName: 
       position: {x: 0.23317498, y: 0.000003552258, z: 0.00000003303112}
       rotation: {x: 0.9999994, y: 0.000013414664, z: -0.00003311748, w: -0.0011172838}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightIndex1
+      parentName: 
       position: {x: 0.09506465, y: -0.000052980962, z: -0.03229297}
       rotation: {x: -0.0011345763, y: -0.0028024006, z: 0.0008470825, w: 0.9999951}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightIndex2
+      parentName: 
       position: {x: 0.031456, y: 5.684342e-16, z: 3.7303492e-16}
       rotation: {x: 4.211791e-17, y: -1.7279472e-18, z: 1.0554031e-18, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightIndex3
+      parentName: 
       position: {x: 0.026145, y: 0, z: 2.842171e-16}
       rotation: {x: 4.211791e-17, y: -1.7279472e-18, z: 1.0554031e-18, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightIndexEND
+      parentName: 
       position: {x: 0.030435, y: 2.842171e-16, z: 3.2862602e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightMiddle1
+      parentName: 
       position: {x: 0.09450487, y: 0.000007224165, z: -0.0054008546}
       rotation: {x: -0.0011345763, y: -0.0028024006, z: 0.0008470825, w: 0.9999951}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightMiddle2
+      parentName: 
       position: {x: 0.038606, y: 2.842171e-16, z: 4.440892e-16}
       rotation: {x: 4.211791e-17, y: -1.7279472e-18, z: 1.0554031e-18, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightMiddle3
+      parentName: 
       position: {x: 0.029821998, y: 2.842171e-16, z: 3.375078e-16}
       rotation: {x: 4.211791e-17, y: -1.7279472e-18, z: 1.0554031e-18, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightMiddleEND
+      parentName: 
       position: {x: 0.030638998, y: -2.842171e-16, z: 3.375078e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightPinky1
+      parentName: 
       position: {x: 0.093388975, y: 0.0001265551, z: 0.047905993}
       rotation: {x: -0.0011345763, y: -0.0028024006, z: 0.0008470825, w: 0.9999951}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightPinky2
+      parentName: 
       position: {x: 0.027576, y: 0, z: 3.375078e-16}
       rotation: {x: 4.211791e-17, y: -1.7279472e-18, z: 1.0554031e-18, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightPinky3
+      parentName: 
       position: {x: 0.023694, y: 0, z: 2.664535e-16}
       rotation: {x: 4.211791e-17, y: -1.7279472e-18, z: 1.0554031e-18, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightPinkyEND
+      parentName: 
       position: {x: 0.023898, y: 2.842171e-16, z: 2.664535e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightRing1
+      parentName: 
       position: {x: 0.0945606, y: 0.0000678541, z: 0.021221206}
       rotation: {x: -0.0011345763, y: -0.0028024006, z: 0.0008470825, w: 0.9999951}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightRing2
+      parentName: 
       position: {x: 0.033294, y: 2.842171e-16, z: 3.5527135e-16}
       rotation: {x: 4.211791e-17, y: -1.7279472e-18, z: 1.0554031e-18, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightRing3
+      parentName: 
       position: {x: 0.025736999, y: 0, z: 2.842171e-16}
       rotation: {x: 4.211791e-17, y: -1.7279472e-18, z: 1.0554031e-18, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightRingEND
+      parentName: 
       position: {x: 0.032273, y: 2.842171e-16, z: 3.7303492e-16}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightThumb1
+      parentName: 
       position: {x: 0.014531372, y: 0.010635231, z: -0.026095485}
       rotation: {x: -0.001391087, y: 0.43585023, z: 0.00026398723, w: 0.90001816}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightThumb2
+      parentName: 
       position: {x: 0.044124745, y: 2.842171e-16, z: 0.00000011967238}
       rotation: {x: -0.0000001293374, y: -0.033468656, z: 0.0000011772497, w: 0.9994398}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightThumb3
+      parentName: 
       position: {x: 0.03446187, y: 1.7053025e-15, z: -0.000000061993184}
       rotation: {x: -1.289088e-16, y: 0.017452406, z: -7.523221e-16, w: 0.9998477}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightThumbEnd
+      parentName: 
       position: {x: 0.02784971, y: 1.7053025e-15, z: 0.00000026974834}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: RightThumbEND
+      parentName: 
       position: {x: -1.4210854e-16, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -1816,8 +2641,11 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 9d9569a11a06f464bb9a5618bdd51bba,
     type: 3}
   animationType: 3

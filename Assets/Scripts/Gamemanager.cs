@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class Gamemanager : MonoBehaviour
 
 {
     public Text uitext;
     public GameObject GameOverContainer;
+    public Animator animator;
     //assign  in inspector here
     [SerializeField] public ParticleSystem _slowparticleSystem;
    
@@ -108,8 +110,8 @@ public class Gamemanager : MonoBehaviour
         {
             //shows the menu after losing a game
             GameOverContainer.SetActive(true);
-           
 
+            animator.SetTrigger("pop");
             uitext.text = "Total Time: " + (int)totalTimeElapsed;
             Time.timeScale = 0f;
             }
