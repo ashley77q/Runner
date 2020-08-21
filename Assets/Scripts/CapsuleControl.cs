@@ -3,16 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CapsuleControl : MonoBehaviour
+
 {
+    //get access function
     private string moveInputAxis = "Vertical";
     private string turnInputAxis = "Horizontal";
     public float rotationRate = 360;
     public float moveSpeed = 2;
 
     #region Monobehaviour API
+    //every frame update our position and roatation
     private void Update()
     {
-
+        //going and grabbing a value between -1 and 1
         float moveAxis = Input.GetAxis(moveInputAxis);
         float turnAxis = Input.GetAxis(turnInputAxis);
 
@@ -26,7 +29,7 @@ public class CapsuleControl : MonoBehaviour
 
 
     }
-
+    
     private void Move(float input)
     {
         transform.Translate(Vector3.forward * input * moveSpeed);
