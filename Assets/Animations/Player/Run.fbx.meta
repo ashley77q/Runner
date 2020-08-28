@@ -1911,10 +1911,10 @@ ModelImporter:
       lastFrame: 319
       wrapMode: 0
       orientationOffsetY: -4.81
-      level: -0.06
+      level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
+      hasAdditiveReferencePose: 1
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2083,7 +2083,7 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 88
+      additiveReferencePoseFrame: 291.6
     isReadable: 1
   meshes:
     lODScreenPercentages: []

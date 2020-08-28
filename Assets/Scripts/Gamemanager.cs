@@ -109,9 +109,9 @@ public class Gamemanager : MonoBehaviour
         else 
         {
             //shows the menu after losing a game
-            GameOverContainer.SetActive(true);
+            //GameOverContainer.SetActive(true);
 
-            animator.SetTrigger("pop");
+            animator.SetBool("pop",true);
             uitext.text = "Total Time: " + (int)totalTimeElapsed;
             Time.timeScale = 0f;
             }

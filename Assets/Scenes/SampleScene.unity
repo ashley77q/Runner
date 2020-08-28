@@ -135,7 +135,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &141049246
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5937,7 +5937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uitext: {fileID: 894886598}
   GameOverContainer: {fileID: 141049245}
-  animator: {fileID: 0}
+  animator: {fileID: 1247385860}
   _slowparticleSystem: {fileID: 1002621604}
   Ground: {fileID: 680873600}
   gameTime: 10
@@ -5984,8 +5984,9 @@ GameObject:
   - component: {fileID: 1247385858}
   - component: {fileID: 1247385857}
   - component: {fileID: 1247385856}
+  - component: {fileID: 1247385860}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: GameOverCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6071,6 +6072,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!95 &1247385860
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247385855}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d3d5d2bde4db44147ba9624b15b9edde, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1279943932 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100080, guid: 9d9569a11a06f464bb9a5618bdd51bba,
