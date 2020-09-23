@@ -17,7 +17,9 @@ public class NewMovement : MonoBehaviour
 
     private CharacterController controller;
     private Animator animator;
-    
+    public float InputX;
+    public float InputY;
+
     private void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -28,7 +30,11 @@ public class NewMovement : MonoBehaviour
 
     private void Update()
     {
+        InputY = Input.GetAxis("Vertical");
+        animator.SetFloat("InputY", InputY);
 
+        InputX = Input.GetAxis("Horizontal");
+        animator.SetFloat("InputX", InputX);
         Move();
 
     }
