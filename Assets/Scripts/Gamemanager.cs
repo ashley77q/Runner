@@ -13,19 +13,31 @@ public class Gamemanager : MonoBehaviour
     public Animator animator;
     //assign  in inspector here
     [SerializeField] public ParticleSystem _slowparticleSystem;
+    
    
 
     //Total game time
     public TextureScroller Ground;
     public float gameTime = 10;
-    
-
+    public Text highScore;
     float totalTimeElapsed = 0;
     bool isGameOver = false;
 
     private void Start()
     {
         Time.timeScale = 1f;
+
+        highScore.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
+
+        if (totalTimeElapsed > PlayerPrefs.GetInt("HighScore", 0))
+        {
+
+            PlayerPrefs.SetInt("HighScore", (int)totalTimeElapsed);
+            highScore.text = totalTimeElapsed.ToString();
+        }
+
+
+
     }
 
     public void RestartGame()
@@ -55,9 +67,12 @@ public class Gamemanager : MonoBehaviour
         if (gameTime <= 0)
             isGameOver = true;
 
+       
+
     }
 
-   
+    
+
 
     public void AdjustTime(float amount)
 
@@ -100,7 +115,7 @@ public class Gamemanager : MonoBehaviour
             //Draws the remaing time to the scene while the game is running and shows the total time the game lasted after it ends.
             uitext.text = "Time Remaining";
             uitext.text = "Total Time: " + (int)totalTimeElapsed;
-         
+          
 
             Rect labelRect = new Rect(Screen.width / 2 - 10, Screen.height - 80, 20, 40);
             GUI.Label(labelRect, ((int)gameTime).ToString());
@@ -113,7 +128,9 @@ public class Gamemanager : MonoBehaviour
 
             animator.SetBool("pop",true);
             uitext.text = "Total Time: " + (int)totalTimeElapsed;
+            highScore.text = "High Score " + (int)totalTimeElapsed;
             Time.timeScale = 0f;
+
             }
         }
     }
