@@ -11,6 +11,8 @@ public class NewMovement : MonoBehaviour
     private float speedSmoothTime = 0.1f;
     private float rotationSpeed = 0.1f;
     private float gravity = 3f;
+    public GameObject TryingSomethingDifferentPlayer;
+
 
     //Camera varuable
     private Transform mainCameraTransform;
@@ -26,9 +28,12 @@ public class NewMovement : MonoBehaviour
         animator = GetComponent<Animator>();
 
         mainCameraTransform = Camera.main.transform;
+
+        
+
     }
 
-    private void Update()
+    public void Update()
     {
         InputY = Input.GetAxis("Vertical");
         animator.SetFloat("InputY", InputY);
@@ -37,6 +42,15 @@ public class NewMovement : MonoBehaviour
         animator.SetFloat("InputX", InputX);
         Move();
 
+        if(Input.GetButtonDown("1key"))
+        {
+
+            TryingSomethingDifferentPlayer.GetComponent<Animator>().Play("Player Run");
+
+
+
+        }
+      
     }
     //Telling the character controller which buttons were pressing 
     private void Move()
