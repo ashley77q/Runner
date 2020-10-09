@@ -11,7 +11,7 @@ public class NewMovement : MonoBehaviour
     private float speedSmoothTime = 0.1f;
     private float rotationSpeed = 0.1f;
     private float gravity = 3f;
-    public GameObject TryingSomethingDifferentPlayer;
+    
 
 
     //Camera varuable
@@ -42,15 +42,32 @@ public class NewMovement : MonoBehaviour
         animator.SetFloat("InputX", InputX);
         Move();
 
-        if(Input.GetButtonDown("1key"))
+        //if(Input.GetButtonDown("1key"))
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
 
-            TryingSomethingDifferentPlayer.GetComponent<Animator>().Play("Player Run");
+            animator.GetComponent<Animator>().Play("PlayerRun");
 
+            
+            
 
 
         }
-      
+    if(Input.GetKeyUp(KeyCode.LeftShift))
+        {
+
+            animator.GetComponent<Animator>().Play("PlayerIdleBlender");
+
+        }
+    if(Input.GetKeyDown(KeyCode.Space))
+        {
+
+            animator.GetComponent<Animator>().Play("JumpTree");
+
+
+        }
+
+        
     }
     //Telling the character controller which buttons were pressing 
     private void Move()
